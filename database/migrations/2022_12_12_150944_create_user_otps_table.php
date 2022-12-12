@@ -13,8 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->string('mobile_no')->nullable();
+        Schema::create('user_otps', function (Blueprint $table) {
+            $table->id();
+            $table->bigInteger('user_id');
+            $table->string('otp');
+            $table->timestamp('expire_at')->nullable();
+            $table->timestamps();
         });
     }
 
@@ -25,8 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('mobile_no');
-        });
+        Schema::dropIfExists('user_otps');
     }
 };
