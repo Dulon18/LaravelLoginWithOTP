@@ -9,3 +9,10 @@
 - php artisan ui bootstrap --auth
 - npm install
 - npm run build
+
+## Output
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/80118217/208136338-86a0bebd-881d-43ea-ba70-5c6b4fd93176.JPG"  alt="Laravel Logo">
+</p>
