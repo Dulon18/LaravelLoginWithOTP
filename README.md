@@ -20,11 +20,11 @@ Next add Twilio Phone Number
 
 Next you can get account SID, Token and Number and add on .env file as like bellow:
 
-TWILIO_SID = xyz
+TWILIO_SID = Enter_Your_Twilo_SID
 
-TWILIO_TOKEN =xyz
+TWILIO_TOKEN = Enter_Your_Twilo_Token
 
-TWILIO_FROM = xyz
+TWILIO_FROM = Enter_Your_Twilo_From
 
 ## Output
 
