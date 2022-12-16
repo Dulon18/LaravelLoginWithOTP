@@ -10,6 +10,16 @@
 - npm install
 - npm run build
 
+## Create Twilio Account & Install
+
+First you need to create and add phone number. then you can easily get account SID, Token and Number.
+
+Create Account from here: www.twilio.com.
+
+Next add Twilio Phone Number
+
+Next you can get account SID, Token and Number and add on .env file as like bellow:
+
 ## Output
 
 
