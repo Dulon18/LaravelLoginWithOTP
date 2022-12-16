@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('OTP Login') }}</div>
+                <div class="card-header text-center bg-primary text-white">{{ __('OTP Login') }}</div>
   
                 <div class="card-body">
   
@@ -33,12 +33,12 @@
   
                         <div class="row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary w-bold">
                                     {{ __('Generate OTP') }}
                                 </button>
   
                                 @if (Route::has('login'))
-                                    <a class="btn btn-link" href="{{ route('login') }}">
+                                    <a class="btn btn-info text-white fw-bold" href="{{ route('login') }}">
                                         {{ __('Login With Email') }}
                                     </a>
                                 @endif
